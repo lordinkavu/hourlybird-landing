@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>How to Set Hourly Reminders on an iPhone - Hourlybird</title>
+    <link rel="icon" type="image/png" href="/fav.png" />
+    <link rel="apple-touch-icon" href="/appstore1024.png" />
+    <meta
+      name="description"
+      content="The iPhone can repeat a reminder every hour, but the setting stays hidden until you set a time first. Here is every method that works, with its quirks."
+    />
+    <link
+      rel="canonical"
+      href="https://hourlybird.com/blog/how-to-set-hourly-reminders-on-iphone"
+    />
+    <meta
+      property="og:title"
+      content="How to Set Hourly Reminders on an iPhone"
+    />
+    <meta
+      property="og:description"
+      content="The iPhone can repeat a reminder every hour, but the setting stays hidden until you set a time first. Here is every method that works, with its quirks."
+    />
+    <meta
+      property="og:url"
+      content="https://hourlybird.com/blog/how-to-set-hourly-reminders-on-iphone"
+    />
+    <meta property="og:site_name" content="Hourlybird" />
+    <meta property="og:type" content="article" />
+    <meta property="og:image" content="https://hourlybird.com/social.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="How to Set Hourly Reminders on an iPhone"
+    />
+    <meta name="twitter:image" content="https://hourlybird.com/social.png" />
+    <link rel="stylesheet" href="/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "How to set hourly reminders on an iPhone",
+        "description": "The iPhone can repeat a reminder every hour, but the setting stays hidden until you set a time first. Every method that works, with its quirks.",
+        "datePublished": "2026-07-02",
+        "dateModified": "2026-07-02",
+        "url": "https://hourlybird.com/blog/how-to-set-hourly-reminders-on-iphone",
+        "mainEntityOfPage": "https://hourlybird.com/blog/how-to-set-hourly-reminders-on-iphone",
+        "image": "https://hourlybird.com/social.png",
+        "author": { "@type": "Person", "name": "Gautham Shankar" },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Hourlybird",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://hourlybird.com/appstore1024.png"
+          }
+        }
+      }
+    </script>
+  </head>
+  <body class="post">
+    <header>
+      <a class="brand-link" href="/">Hourlybird</a>
+      <h1>How to set hourly reminders on an iPhone</h1>
+      <p class="post-meta">Gautham Shankar · July 2026</p>
+    </header>
+    <main>
+      <p>
+        For an embarrassingly long time I believed the iPhone could not repeat
+        a reminder every hour. I searched the Clock app, gave up, and blamed
+        Apple. The option exists. It just stays invisible until you perform one
+        specific step, and nothing in the interface tells you which one.
+      </p>
+
+      <h2>The Reminders app does it, reluctantly</h2>
+      <ol>
+        <li>
+          Open Reminders and create a new reminder. Give it a name you will
+          actually obey, like Stand up or Drink water.
+        </li>
+        <li>Tap the reminder, then the small info button to its right.</li>
+        <li>
+          Turn on Time and pick a starting time. This is the step that
+          matters. Until a time is set, the hourly option simply does not
+          appear anywhere.
+        </li>
+        <li>Now tap Repeat, and there it is: Hourly.</li>
+      </ol>
+      <p>
+        From then on the reminder fires every hour. Two quirks are worth
+        knowing about. First, Reminders treats each hour as a task, so every
+        notification expects to be marked complete. Swipe a few away without
+        doing that and you accumulate an overdue list with a red badge, which
+        turns a gentle nudge into a small guilt engine. Second, the hourly
+        repeat wants the reminder to live in an iCloud list. If yours is
+        stored in an email account's list instead, the option can stay hidden
+        no matter how many times you set the time.
+      </p>
+
+      <h2>Or just ask Siri</h2>
+      <p>
+        Saying "remind me to stretch every hour starting at 9 a.m." builds the
+        same reminder in one sentence. Siri quietly handles the hidden time
+        step for you, which makes this the least annoying method Apple offers.
+      </p>
+
+      <h2>The Clock app is the wrong tool</h2>
+      <p>
+        Alarms only ring at fixed times, so an hourly setup means creating one
+        alarm for every waking hour. Twelve alarms, twelve labels, and when a
+        meeting starts you get to switch them off one by one. I tried this
+        once. Once.
+      </p>
+
+      <h2>Shortcuts, for the determined</h2>
+      <p>
+        Personal automations in the Shortcuts app trigger at a fixed time of
+        day, so a truly hourly setup means building a separate automation for
+        each hour you are awake. It works, people really do it, and you will
+        resent every minute of the setup. I mention it for completeness.
+      </p>
+
+      <h2>If you wear an Apple Watch</h2>
+      <p>
+        The watch has a lovely chime feature hidden in its Accessibility
+        settings, with a choice of bells or birdsong. I wrote about it
+        separately in
+        <a href="/blog/make-your-iphone-chime-every-hour"
+          >how to make your iPhone chime every hour</a
+        >, because it deserves its own page.
+      </p>
+
+      <h2>Why I ended up building an app for this</h2>
+      <div class="app-note">
+        <p>
+          Hourlybird exists because I wanted the reminder without the task. It
+          plays a short bird chime on the hour, handles hydration and
+          stretching reminders, and has a pause button for meetings. Nothing
+          ever piles up in an overdue list, because there is no list.
+          <a href="https://apps.apple.com/app/hourlybird/id6758052704"
+            >It is free on the App Store</a
+          >. I made it, so weigh this paragraph accordingly.
+        </p>
+      </div>
+      <p>
+        Whichever method you pick, the notification is not really the point.
+        The point is the half second after it, when you look up from whatever
+        had swallowed you and decide what the next hour is for.
+      </p>
+    </main>
+    <footer>
+      <div class="footer-content">
+        <a href="/">Home</a>
+        <a href="/blog">Blog</a>
+        <a href="/contact-us">Contact us</a>
+      </div>
+    </footer>
+  </body>
+</html>
